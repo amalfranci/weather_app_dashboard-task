@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// for user
+model Users {
+  id         Int         @id @default(autoincrement())
+  name       String      @db.VarChar(191)
+  email      String      @unique @db.VarChar(191)
+  password   String
+  profile    String?
+  created_at DateTime    @default(now())
+  updated_at DateTime    @default(now())
+  favorites  Favorites[]
+}
+
+// for favorites
+model Favorites {
+  id        Int      @id @default(autoincrement())
+  city      String
+  userId    Int
+  user      Users    @relation(fields: [userId], references: [id])
+  createdAt DateTime @default(now())
+}
