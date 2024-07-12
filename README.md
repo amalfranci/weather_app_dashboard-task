@@ -3,6 +3,10 @@
 
 # Weather Dashboard 
 
+# Home page
+![Screenshot (270)](https://github.com/user-attachments/assets/01b43f37-7ade-424c-ba87-29afeef33b7c)
+![Screenshot (271)](https://github.com/user-attachments/assets/8f972d7f-a38e-4d2e-9af2-fe2809097caa)
+
 # working video
 
 check - [https://drive.google.com/file/d/1saA-4GVAyMnkg0TsLfFgYQksT29sxIX2/view?usp=sharing](https://drive.google.com/file/d/1NAXx1lLhw54yEokjIRyxtJOiIceVgjWE/view?usp=sharing)
