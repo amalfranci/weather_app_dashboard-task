@@ -91,7 +91,6 @@ class AuthController {
       }
 
       return res.status(400).json({
-        status: 500,
         errors: {
           email: "No user found with this email ",
         },
