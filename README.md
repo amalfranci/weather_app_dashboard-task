@@ -116,7 +116,7 @@ To run the application locally, follow these steps:
 -   `POST /api/auth/reister` - User register.
 -   `POST /api/auth/login` - User login.
 -   `POST /api/favorites` - User add favorites city.
--   -   `POST /api/favorites/remove` - User remove favorites city.
+-   `POST /api/favorites/remove` - User remove favorites city.
 -   `GET /api/favorites` - Get favorites cities.
 -   `GET `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric` - Get current city weather
 -    `GET `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric` - Get 7 days weather 
